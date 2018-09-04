@@ -1,0 +1,214 @@
+.btn-circle {
+    border-radius: 48%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-width: 0px;
+    width:45px;
+    height:45px;
+}
+.btn.btn-flat {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-width: 1px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #727272;
+    border-color: #727272;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #727272;
+    border-color: #727272;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #297a4d;
+    border-color: mediumseagreen;
+}
+.btn-success {
+    color: #fff;
+    background-color: mediumseagreen;
+    border-color: #297a4d;
+}
+.btn-default:hover {
+    color: white;
+    background-color: #727272;
+    border-color: #727272;
+}
+.btn-default {
+    color: #333;
+    background-color: #727272;
+    border-color: #727272;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.hidden{
+    display:none;
+}
+
+.panel-footer {
+    padding: 10px 15px;
+    background-color: white;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    
+    /* border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px; */
+}
+.circle{
+    border-radius: 50%;
+}
+
+ .img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.custom-dialog {width:60% !important; top:-2%;}
+.panel{
+  margin-bottom: 1px; 
+}
+.col-md-3 .col-xs-12{
+    padding-right: 10px;
+    padding-left: 8px;
+    
+}
+.modal-header {
+    padding: 13px;
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-footer {
+    padding: 10px;
+    background-color: #fff;
+    border-color: #ffffff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.requiredError{
+    color:red;
+    font-weight: bolder;
+}
+.input-primary{
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.padding{
+    padding-bottom:1%;
+}
+.bg-level{
+    background-color: #2672EC; 
+}
+.bg-level1{
+    background-color: #004050; 
+}
+.bg-level2{
+    background-color: #00C13F; 
+}
+.bg-assign{
+    background-color: #AC193D;
+}
+.bg-primary{
+    background-color: #286090;
+}
+.bg-danger {
+    background-color: #dd4b39 !important;
+}
+.bg-warning {
+    background-color: #f39c12 !important;
+}
+.bg-default {
+    background-color: #9400D3;
+}
+.bg-success {
+    background-color: #00a65a !important;
+}
+.bg-aqua {
+    background-color: #000000 !important;
+}
+
+.small-box>.inner {
+    padding: 10px;
+}
+.small-box>.small-box-footer {
+    position: relative;
+    text-align: center;
+    padding: 3px 0;
+    color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    z-index: 10;
+    background: rgba(0,0,0,0.1);
+    text-decoration: none;
+}
+.small-box .icon {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    position: absolute;
+    top: -30px;
+    right: 15px;
+    z-index: 0;
+    font-size: 90px;
+    color: rgba(0,0,0,0.15);
+}
+.small-box h3, .small-box p {
+    z-index: 5;
+    color:#fff;
+    
+}
+.small-box p{
+    font-weight: bold;
+}
+.small-box h3 {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+    padding: 0;
+}
+@media only screen and (max-width: 500px) {
+    .custom-dialog {width:90% !important; top:-2%;}
+}
+@media only screen and (max-width: 768px) {
+    .custom-dialog {width:90% !important; top:-2%;}
+}
+@media only screen and (max-width: 1024px) {
+    .custom-dialog {width:90% !important; top:-2%;}
+}
